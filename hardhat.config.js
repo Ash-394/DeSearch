@@ -31,6 +31,10 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       chainId: 42220,
     },
+    zkEVM: {
+      url: `https://rpc.public.zkevm-test.net`,
+      accounts: [process.env.PRIVATE_KEY],
+      },
   },
   solidity: {
     version: "0.8.4",
