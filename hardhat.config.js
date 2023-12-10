@@ -35,6 +35,11 @@ module.exports = {
       url: `https://rpc.public.zkevm-test.net`,
       accounts: [process.env.PRIVATE_KEY],
       },
+      polygon_mumbai: {
+        url: "https://rpc-mumbai.maticvigil.com",
+        accounts: [process.env.PRIVATE_KEY]
+      }
+    },
   },
   solidity: {
     version: "0.8.4",
